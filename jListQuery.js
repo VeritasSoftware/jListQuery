@@ -173,7 +173,7 @@ var _isJoin = false;
 
         _tempList = list;
 
-        return this;
+        return $.toList(true);
     }, 
     $.toList = function (reinitialize) {        
         if (_tempList != null) {
